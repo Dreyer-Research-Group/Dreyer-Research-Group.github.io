@@ -6,4 +6,4 @@ Welcome to the GitHub site for the Dreyer group at Stony Brook University and th
 
 The main group website is [you.stonybrook.edu/cdreyer/](https://you.stonybrook.edu/cdreyer/).
 
-The site for PHY 604, Fall 2021 is [here.][phy604_fall2021.md] 
+The site for PHY 604, Fall 2021 is [here.](phy604_fall2021.md)
