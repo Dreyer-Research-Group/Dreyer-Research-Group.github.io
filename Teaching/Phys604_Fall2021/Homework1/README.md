@@ -3,7 +3,7 @@ Programs can be written in any language, In addition to the program,
  you should have a writeup that contains the plots requested in the
  homework questions, answers to any analytical or explanation
  questions, and a short description of your code and how to run
- it. This can be done in, e.g., $\LaTeX$, markdown, etc. Code and
+ it. This can be done in, e.g., LaTeX, markdown, etc. Code and
  writeup should be submitted using git via github in the repo
  that was created from github classroom link
  
