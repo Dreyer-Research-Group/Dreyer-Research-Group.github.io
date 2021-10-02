@@ -9,5 +9,5 @@ Programs can be written in any language, In addition to the program,
  
 # Instructions for turning in via github classroom:
 
-To access the Homework2 repository, navigate to the following link: [https://classroom.github.com/a/CC-eg1JD](https://classroom.github.com/a/CC-eg1JD). The deadline is  **Oct. 14, 2021 at 23:00**.
+To access the Homework3 repository, navigate to the following link: [https://classroom.github.com/a/CC-eg1JD](https://classroom.github.com/a/CC-eg1JD). The deadline is  **Oct. 14, 2021 at 23:00**.
 
