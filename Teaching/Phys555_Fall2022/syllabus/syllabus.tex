@@ -1,0 +1,178 @@
+\documentclass[11pt]{article}
+
+%\usepackage[cm]{fullpage}
+\usepackage[lmargin=0.75in,rmargin=0.75in,
+            tmargin=0.5in,bmargin=0.75in]{geometry}
+
+
+\usepackage[parfill]{parskip}
+
+\usepackage{hyperref}
+
+%\usepackage{palatino}
+
+% URLs (special font for monospace)
+\usepackage{inconsolata}
+\usepackage[T1]{fontenc}
+
+%\usepackage[defaultsans]{cantarell}
+%\usepackage[T1]{fontenc}
+
+\usepackage[small,compact]{titlesec}
+\titlespacing{\subsection}{0pt}{*1}{-0.5\parskip}
+\titleformat*{\subsection}{\sffamily\bfseries}
+
+%\usepackage{fancyhdr}
+
+%\pagestyle{fancy}
+
+%\fancyhead{}
+%\fancyfoot[LO,LE]{\sffamily \footnotesize PHY 604/Spring 2017---revision 1.05 (2017-09-19)}
+%\fancyfoot[CO,CE]{\thepage}
+%\renewcommand{\headrulewidth}{0.0pt}
+%\renewcommand{\footrulewidth}{0.0pt}
+
+\newenvironment{itemsquish}
+  { \begin{itemize}
+    % set spacing between items
+    \addtolength{\itemsep}{-0.25\baselineskip}
+    % set spacing between lines
+    \addtolength{\baselineskip}{-0.25\baselineskip} }
+  { \end{itemize} }
+
+
+
+\begin{document}
+
+\begin{center}
+{\LARGE \sffamily \bfseries PHY 555: Solid State Physics I} \\[3mm]
+{\em  Instructor:} Cyrus Dreyer, Physics B141, cyrus.dreyer@stonybrook.edu \\
+{\em Web:}\/ \url{https://dreyer-research-group.github.io/phy555_fall2022.html}
+\end{center}
+
+\subsection*{Office Hours:}
+
+\textit{(Tentatively:)} Mondays, 10:08am-11:00am; Wednesdays, 10:08am-12:00pm
+
+\subsection*{Texts:}
+
+The main textbook that we will use is \textit{Solid State Physics}, by Giuseppe Grosso and Giuseppe Pastori Parravicini, any edition is fine (Elsevier,  isbn: 9780080481029). The main reason this text was chosen (instead of the more classic ones below), is that it provides more modern topics and treatment of solid-state physics. 
+
+Other useful references (optional):
+\begin{itemsquish}
+\item {\em Solid State Physics}, N.W.~Ashcroft and  N.D.~Mermin
+\item {\em Principles of the Theory of Solids},  J.M.~Ziman
+\item {\em The Oxford Solid State Basics}, S.H.~Simon
+\end{itemsquish}
+
+\subsection*{Course Objectives: }
+
+\begin{itemsquish}
+\item Understand the basic properties of crystalline solids and other condensed-matter systems
+\item Learn methods for describing the electronic and lattice structure of solids
+\item Understand the theory behind experimental probes of solid-state systems
+\end{itemsquish}
+
+
+\subsection*{Lecture organization and topics: }
+
+\noindent Course material will be presented through lectures on the blackboard, and occasionally with slides. Notes will be posted on the class website as well as further readings. Topics will include: 
+
+\begin{center}
+\begin{tabular}{ll}
+  topic   & G \& P Ch.\\
+\hline
+  Crystal lattices   & II \\
+  Semiclassical treatment of electrons   & III  \\
+  Band theory of crystals & V \\
+  Electronic structure properties and methods    & II,VI  \\
+  Electronic excitations (excitons, plasmons) & VII \\
+  Dielectric screening & VII  \\
+  Electron-lattice coupling, phonons   & VIII, IX   \\
+ X-ray, neutron scattering   & X   \\
+ Optical and transport properties   & XI-XIV   \\
+  Magnetic properties   & XV-XVII  \\
+  Superconductivity  & XVIII   \\
+\hline
+\end{tabular}
+\end{center}
+ 
+
+\subsection*{Homework:}
+
+\noindent Homework will be assigned every 1-2 weeks via the course webpage. Assignments will include conceptual, analytical, and \emph{computational} exercises (only very light coding will be required via, e.g., mathematica, matlab, python, or another language of your choice). Assignments will be submitted via Blackboard. \textbf{\textit{Homework will be worth 50 \% of the final grade.}}
+
+
+\subsection*{Exams:}
+
+\noindent There will be one midterm exam (date TBD) and a final exam (during the assigned final exam period). The final will be cumulative. \textbf{\textit{The midterm will be worth 20 \% of the final grade, and the final exam will be worth 30 \% of the final grade.}}
+
+
+
+\subsection*{Americans with Disabilities Act: }
+
+\noindent If you have a physical, psychological, medical or learning
+disability that may impact your course work, please contact Disability
+Support Services, ECC (Educational Communications Center) Building,
+Room 128, (631) 632-6748. They will determine with you what
+accommodations, if any, are necessary and appropriate. All information
+and documentation is confidential.
+
+\subsection*{Academic Integrity: }
+
+\noindent Each student must pursue his or her academic goals honestly
+and be personally accountable for all submitted work. Representing
+another person's work as your own is always wrong. Faculty are
+required to report any suspected instances of academic dishonesty to
+the Academic Judiciary. Faculty in the Health Sciences Center (School
+of Health Technology \& Management, Nursing, Social Welfare, Dental
+Medicine) and School of Medicine are required to follow their
+school-specific procedures. For more comprehensive information on
+academic integrity, including categories of academic dishonesty,
+please refer to the academic judiciary website at
+\url{http://www.stonybrook.edu/commcms/academic_integrity/}
+
+\subsection*{Critical Incident Management: }
+
+\noindent Stony Brook University expects students to respect the
+rights, privileges, and property of other people. Faculty are required
+to report to the Office of Judicial Affairs any disruptive behavior
+that interrupts their ability to teach, compromises the safety of the
+learning environment, or inhibits students' ability to learn.  Faculty
+in the HSC Schools and the School of Medicine are required to follow
+their school-specific procedures.
+
+
+\subsection*{Electronic Communication: }
+
+\noindent Email to your University email account is an important way
+of communicating with you for this course.  For most students the
+email address is `{\tt firstname.lastname@stonybrook.edu}'.
+%, and the account can be accessed here.
+{\em It is your responsibility to read your email received at this
+  account.}  For instructions about how to verify your University
+email address see this: \\[0.25em]
+\url{http://it.stonybrook.edu/help/kb/checking-or-changing-your-mail-forwarding-address-in-the-epo}
+\\[0.25em]
+%
+You can set up email forwarding using instructions here: \\[0.25em]
+\url{http://it.stonybrook.edu/help/kb/setting-up-mail-forwarding-in-google-mail}
+\\[0.25em]
+%
+If you choose to forward your University email to another account, we
+are not responsible for any undeliverable messages.
+
+\subsection*{Religious Observances: }
+
+\noindent See the policy statement regarding religious holidays at
+\\[0.25em] {
+  \url{http://www.stonybrook.edu/registrar/forms/RelHolPol\%20081612\%20cr.pdf}}
+\\[0.25em]
+%
+Students are expected to notify the course professors by email of
+their intention to take time out for religious observance.  This
+should be done as soon as possible but definitely before the end of
+the `add/drop' period.  At that time they can discuss with the
+instructor(s) how they will be able to make up the work covered.
+
+\end{document}
