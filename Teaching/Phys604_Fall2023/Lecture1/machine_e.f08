@@ -9,6 +9,6 @@ program mac_e
      
   end do
 
-  write(*,*) 2*eps
+  write(*,*) eps
   
 end program mac_e
