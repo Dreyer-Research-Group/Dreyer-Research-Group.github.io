@@ -10,7 +10,7 @@ Once you have a github account, navigate to the following link: [https://classro
 
 `git clone https://github.com/Dreyer-Research-Group/homework1-yourusername`
 
-As you work on yout homework, you can `add` and `commit` changes. When you would like to turn in the assignment, make sure you have included all of the latest versions of your files in the latest commit and `push` to the github repo (i.e., with the command `git push`). You should be able to push changes until the deadline, which is **Sept. 16, 2021 at 23:00**, and feel free to `push` at intermediate points, either to back up your work, or if you need help with something (I am able to access your github repo).
+As you work on yout homework, you can `add` and `commit` changes. When you would like to turn in the assignment, make sure you have included all of the latest versions of your files in the latest commit and `push` to the github repo (i.e., with the command `git push`). You should be able to push changes until the deadline, which is **Sept. 21, 2021 at 23:59**, and feel free to `push` at intermediate points, either to back up your work, or if you need help with something (I am able to access your github repo).
 
 Note that the security features for accessing github remotely have recently changed, see
 [this Stackexchange question.](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to).
