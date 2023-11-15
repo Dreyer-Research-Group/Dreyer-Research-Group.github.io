@@ -6,7 +6,7 @@ Programs can be written in any language (but python is recommended). In addition
 
 In order to turn in the homeworks, you will need to install git on your computer and make a github account. You can see instructions for how to do this [here](https://docs.github.com/en). Let me know if you have issues doing this.
 
-Once you have a github account, navigate to the following link: [https://classroom.github.com/a/gsGgj_Tm](https://classroom.github.com/a/gsGgj_Tm). This will allow you to link your github account to your name on the class roster (let me know if your name does not appear). Then a repo will be created for your assignment. You can clone it to you machine with a command that looks something like:
+Once you have a github account, navigate to the following link: [https://classroom.github.com/a/bccH62Ev](https://classroom.github.com/a/bccH62Ev). This will allow you to link your github account to your name on the class roster (let me know if your name does not appear). Then a repo will be created for your assignment. You can clone it to you machine with a command that looks something like:
 
 `git clone https://github.com/Dreyer-Research-Group/homework2-yourusername`
 
