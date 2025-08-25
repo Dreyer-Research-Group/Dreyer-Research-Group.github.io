@@ -11,3 +11,5 @@ The site for PHY 604, Fall 2021 is [here.](phy604_fall2021.md)
 The site for PHY 555, Fall 2022 is [here.](phy555_fall2022.md)
 
 The site for PHY 604, Fall 2023 is [here.](phy604_fall2023.md)
+
+The site for PHY 604, Fall 2025 is [here.](phy604_fall2025.md)
